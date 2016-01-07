@@ -1,0 +1,29 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        
+          <EditText
+            android:id="@+id/categoryNameEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"   
+            android:hint="Enter Category Name"
+            android:ems="10" >
+
+        </EditText>
+          <Button
+        android:id="@+id/addCategoryBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+        android:text="Add" />
+
+</LinearLayout>
+</ScrollView>
